@@ -20,6 +20,7 @@ public class DbConnectSample01 {
 
 
         try {
+            //ドライバをプロジェクトに取り込む★
             // 1. ドライバのクラスをJava上で読み込む
             Class.forName("com.mysql.cj.jdbc.Driver");
             //try-with-resources構文
